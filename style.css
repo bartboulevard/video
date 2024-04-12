@@ -1,0 +1,53 @@
+body {
+    background: #000000
+}
+
+.home-content__video {
+    display: inline-block;
+    margin-top: 4.2rem;
+}
+
+.home-content__video .video-link {
+    display: block;
+    text-align: center;
+    width: 20rem;
+    outline: none;
+    position: relative;
+}
+
+.home-content__video .video-icon {
+    display: inline-block;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    background-color: #793ea5;
+    background-image: url(icons/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: 55% center;
+    background-size: 24px 27px;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.home-content__video .video-text {
+    display: inline-block;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    color: #9c9c9c;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+}
+
+.home-content__video .video-link:hover .video-text {
+    color: white;
+}
+
+.home-content__video .video-link:hover .video-icon {
+    background-color: #ff4655;
+}
